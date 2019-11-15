@@ -1,9 +1,9 @@
-﻿using LoggignService.LoggerAPI.Models;
+﻿using LogginService.LoggerAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using NLog;
 using System.Collections.Generic;
 
-namespace LoggignService.LoggerAPI.Controllers
+namespace LogginService.LoggerAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -27,7 +27,6 @@ namespace LoggignService.LoggerAPI.Controllers
                         { "error", LogLevel.Error },
                         { "fatal", LogLevel.Fatal },
                     };
-
 
         private LogLevel ConvertToLogLevel(string logLevel)
         {

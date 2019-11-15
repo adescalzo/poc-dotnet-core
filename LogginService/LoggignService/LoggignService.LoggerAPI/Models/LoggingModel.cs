@@ -1,4 +1,4 @@
-﻿namespace LoggignService.LoggerAPI.Models
+﻿namespace LogginService.LoggerAPI.Models
 {
     public class LoggingModel
     {
